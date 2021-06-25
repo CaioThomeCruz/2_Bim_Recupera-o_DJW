@@ -1,4 +1,5 @@
 
+
 class Starfield
 {
 	
@@ -104,13 +105,11 @@ start()
 		for(var i=0; i<this.stars.length;i++) {
 			this.star = this.stars[i];
 			this.ctx.fillRect(this.star.x, this.star.y, this.star.size, this.star.size);
-			
-		}
-		
 	}
 
 
   update(){
+  
 	var dt = 10 / this.fps;
 
 	for(var i=0; i<this.stars.length; i++) {
