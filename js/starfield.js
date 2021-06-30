@@ -32,8 +32,8 @@ class Starfield
     this.ctx = ctx;
 	//console.table(this.ctx);
 	//define o tamanho da janela
-	this.width = 451;
-	this.height = 600;
+	this.width = 550;
+	this.height = 730;
 	this.ctx.canvas.width = this.width;
     this.ctx.canvas.height = this.height;
 	    
@@ -94,8 +94,10 @@ start()
 	}
 
 
+
   update(){
-	var dt = 1 / this.fps;
+	  
+	var dt = 10 / this.fps;
 
 	for(var i=0; i<this.stars.length; i++) {
 		var star = this.stars[i];
