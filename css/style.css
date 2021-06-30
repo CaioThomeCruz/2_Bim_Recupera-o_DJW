@@ -1,20 +1,14 @@
-body {
-	
-    display: flex;
-    justify-content: center;
-    align-items: center;
-	background-color: #fff;
-
-}
-
-canvas {
-    border: 0.1px solid #000;
-    display: block;
-    margin: 0 auto;
-}
-#field{
-	float: relative;
-	margin-top:-0px;
-	margin-right:-900px;
-	border: none;
-}
+#container {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+body { 
+				margin: 0px;
+				padding: 0px;
+				font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+				background-color: #000;
+				color: #bbbbbb;
+			}
